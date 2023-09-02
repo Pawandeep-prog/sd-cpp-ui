@@ -79,7 +79,7 @@ struct Option {
     int w = 512;
     int h = 512;
     SampleMethod sample_method = EULAR_A;
-    int sample_steps = 5;
+    int sample_steps = 2;
     float strength = 0.75f;
     int seed = 42;
     bool verbose = false;
@@ -107,17 +107,25 @@ struct Option {
 
 Option opt;
 bool vae_decode_only = true;
-StableDiffusion sd(opt.n_threads, vae_decode_only, true);
-bool load_model(char* path){
-    // char* model_path = "/Users/pawandeepsingh/Documents/Development/sd/stable-diffusion.cpp/models/realistic.bin";
-    if (!sd.load_from_file(path)) {
-        return false;
-    }
-    opt.print();
-    return true;
+std::string model_path = "";
+
+
+void set_model_path(char* path){
+    model_path = path;
 }
+
+// char* model_path = "/Users/pawandeepsingh/Documents/Development/sd/stable-diffusion.cpp/models/realistic.bin";
+    
 int generate_image(char* positive, char* negative) {
     
+    StableDiffusion sd(opt.n_threads, vae_decode_only, true);
+
+    if (!sd.load_from_file(model_path)) {
+        return false;
+    }
+
+    opt.print();
+
     std::vector<uint8_t> init_img;
 
     if (opt.mode == IMG2IMG) {

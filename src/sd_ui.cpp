@@ -7,17 +7,22 @@
 namespace StableDiffUI{
     char positive_prompt[500], negative_prompt[500], model_path[500], image_path[500]="";
     bool show_preview = false;
+
+    void thread_generate(){
+        generate_image(positive_prompt, negative_prompt);
+        show_preview = true;
+        Utils::texture_loaded = false;
+    }
     
 
     void showUI(){
-    
         ImGui::DockSpaceOverViewport(ImGui::GetMainViewport());
 
         ImGui::Begin("load model");
         ImGui::InputText("model path", model_path, sizeof(model_path));
         ImGui::SameLine();
         if(ImGui::Button("load model")){
-            load_model(model_path);
+            set_model_path(model_path);
         }
         ImGui::End();
 
@@ -25,10 +30,7 @@ namespace StableDiffUI{
         ImGui::InputText("positive prompt", positive_prompt, sizeof(positive_prompt));
         ImGui::InputText("negative prompt", negative_prompt, sizeof(negative_prompt));
         if(ImGui::Button("Generate")){
-            std::cout<<"+ve "<<positive_prompt<<" -ve "<<negative_prompt;
-            generate_image(positive_prompt, negative_prompt);
-            show_preview = true;
-            Utils::texture_loaded = false;
+            thread_generate();
         }
         ImGui::End();
 
