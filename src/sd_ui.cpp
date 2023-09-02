@@ -3,6 +3,7 @@
 #include <iostream>
 #include "sd_utility.cpp"
 #include "utils.cpp"
+#include <future>
 
 namespace StableDiffUI{
     char positive_prompt[500], negative_prompt[500], model_path[500], image_path[500]="";
@@ -26,7 +27,7 @@ namespace StableDiffUI{
         }
         ImGui::End();
 
-        ImGui::Begin("Stable Diffusion UI");
+        ImGui::Begin("text2Img");
         ImGui::InputText("positive prompt", positive_prompt, sizeof(positive_prompt));
         ImGui::InputText("negative prompt", negative_prompt, sizeof(negative_prompt));
         if(ImGui::Button("Generate")){
