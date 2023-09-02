@@ -1,0 +1,3 @@
+namespace StableDiffUI{
+    void showUI();
+}

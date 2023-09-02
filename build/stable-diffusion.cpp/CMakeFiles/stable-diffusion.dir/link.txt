@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libstable-diffusion.a "CMakeFiles/stable-diffusion.dir/stable-diffusion.cpp.o"
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libstable-diffusion.a
