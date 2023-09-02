@@ -1,3 +1,6 @@
 [submodule "imgui"]
 	path = imgui
 	url = https://github.com/ocornut/imgui.git
+[submodule "stable-diffusion.cpp"]
+	path = stable-diffusion.cpp
+	url = https://github.com/leejet/stable-diffusion.cpp.git
