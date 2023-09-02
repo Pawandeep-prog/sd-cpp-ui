@@ -460,6 +460,13 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Directory for CMakeRC include files
+CMRC_INCLUDE_DIR:INTERNAL=/Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/build/_cmrc/include
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Path to CMakeRC script
+_CMRC_SCRIPT:INTERNAL=/Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/build/CMakeRC.cmake
+//CMakeRC version. Used for checking for conflicts
+_CMRC_VERSION:INTERNAL=2.0.0
+cmrc_hpp:INTERNAL=/Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/build/_cmrc/include/cmrc/cmrc.hpp
 

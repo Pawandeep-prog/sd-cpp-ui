@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+5154a88b21d4c982bbc34bee87219eea __cmrc_app1-resources/lib.cpp
+5f1549e519ac1a1d301a409440a5ff7d __cmrc_sd_res/lib.cpp

@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libsd_res.a CMakeFiles/sd_res.dir/__cmrc_sd_res/lib.cpp.o CMakeFiles/sd_res.dir/__cmrc_sd_res/intermediate/fonts/Chalkduster.ttf.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libsd_res.a

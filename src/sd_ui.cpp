@@ -27,7 +27,5 @@ namespace StableDiffUI{
         }
         ImGui::End();
 
-        // ImGui::ShowDemoWindow();
-
     }
 }

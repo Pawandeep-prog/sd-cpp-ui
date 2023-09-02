@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libapp1-resources.a "CMakeFiles/app1-resources.dir/__cmrc_app1-resources/lib.cpp.o" "CMakeFiles/app1-resources.dir/__cmrc_app1-resources/intermediate/fonts/Chalkduster.ttf.cpp.o"
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libapp1-resources.a
