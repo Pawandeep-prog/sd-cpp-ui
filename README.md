@@ -1,14 +1,14 @@
-# sd-cpp-ui: Simple UI for Stable Diffusion C++ Models
+# sd-cpp-ui: Simple UI for Stable Diffusion C++ Models 🚀
 
-## Introduction
+## Introduction 📌
 
-Welcome to the sd-cpp-ui project, a straightforward and user-friendly graphical user interface (UI) for the latest Stable Diffusion C++ models. This UI has been exclusively crafted using C++ and ImGui. It leverages the Stable-diffusion.cpp repository to seamlessly load models for your convenience.
+Welcome to the sd-cpp-ui project, a straightforward and user-friendly graphical user interface (UI) for the latest Stable Diffusion C++ models. This UI has been exclusively crafted using C++ and ImGui, making it accessible for everyone.
 
-## Motivation
+## Motivation 🌟
 
 The motivation behind this project stemmed from the lack of a native C++ UI for the Stable Diffusion C++ models. As a personal hobby, I embarked on the journey of creating an application in C++. While the current codebase might appear somewhat complex, I plan to restructure it in the near future. I'm also in the process of learning ImGui, and I welcome contributions from the community to enhance and expand this project.
 
-## UI Features
+## UI Features 🎨
 
 ![UI Screenshot](./samples/ui1.png)
 
@@ -17,7 +17,7 @@ The motivation behind this project stemmed from the lack of a native C++ UI for 
 3. **Simplicity**: The current UI is intentionally kept minimal and straightforward, with plans for future updates.
 4. **Community Contributions**: Contributions from the community are highly encouraged. Feel free to make changes and submit pull requests.
 
-## Current Features
+## Current Features 🌟
 
 The current version of the UI offers the following features:
 
@@ -26,7 +26,7 @@ The current version of the UI offers the following features:
 3. **Prompts**: Provide both positive and negative prompts.
 4. **Image Preview**: View the generated image preview.
 
-## To-Do List
+## To-Do List 📋
 
 Here's what's on the horizon for this project:
 
@@ -35,13 +35,13 @@ Here's what's on the horizon for this project:
 - [ ] Remove redundant code parts
 - [ ] Test on Windows and Linux
 
-## Tested Platforms
+## Tested Platforms 🖥️
 
 As of now, the application has been tested on the following platform:
 
 - macOS M1 with 8GB RAM
 
-## Requirements
+## Requirements 📦
 
 To use this application, you'll need the following:
 
@@ -49,7 +49,7 @@ To use this application, you'll need the following:
 2. A C++ development environment.
 3. GLFW and OpenGL 3.
 
-## Installation
+## Installation 🛠️
 
 To get started with sd-cpp-ui, follow these steps:
 
@@ -104,4 +104,4 @@ To get started with sd-cpp-ui, follow these steps:
 
 Follow these steps to set up and launch the sd-cpp-ui application on your system. Make sure to have all the required dependencies installed before proceeding with the installation.
 
-Feel free to contribute, report issues, or help improve this project. Together, we can make sd-cpp-ui an even more accessible and powerful tool for working with Stable Diffusion C++ models.
+Feel free to contribute, report issues, or help improve this project. Together, we can make sd-cpp-ui an even more accessible and powerful tool for working with Stable Diffusion C++ models. 💪
