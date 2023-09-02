@@ -156,8 +156,8 @@ CMakeFiles/stable_diffusion_ui.dir/clean:
 # Target rules for target CMakeFiles/sd_ui.dir
 
 # All Build rule for target.
-CMakeFiles/sd_ui.dir/all: stable-diffusion.cpp/CMakeFiles/stable-diffusion.dir/all
 CMakeFiles/sd_ui.dir/all: CMakeFiles/stable_diffusion_ui.dir/all
+CMakeFiles/sd_ui.dir/all: stable-diffusion.cpp/CMakeFiles/stable-diffusion.dir/all
 CMakeFiles/sd_ui.dir/all: stable-diffusion.cpp/ggml/src/CMakeFiles/ggml.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sd_ui.dir/build.make CMakeFiles/sd_ui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sd_ui.dir/build.make CMakeFiles/sd_ui.dir/build

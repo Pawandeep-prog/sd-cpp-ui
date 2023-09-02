@@ -1594,4 +1594,9 @@ CMakeFiles/sd_ui.dir/src/sd_ui.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_seek_set.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uuid_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/gethostuuid.h
+ /Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/src/utils.cpp
+ /Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/imgui/backends/imgui_impl_glfw.h
+ /Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/imgui/backends/imgui_impl_opengl3.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/TargetConditionals.h
+ /Users/pawandeepsingh/Documents/Development/GUI_cpp/sd_cpp_ui/imgui/backends/imgui_impl_opengl3_loader.h
 

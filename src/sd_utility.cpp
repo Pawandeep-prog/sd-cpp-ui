@@ -79,7 +79,7 @@ struct Option {
     int w = 512;
     int h = 512;
     SampleMethod sample_method = EULAR_A;
-    int sample_steps = 20;
+    int sample_steps = 5;
     float strength = 0.75f;
     int seed = 42;
     bool verbose = false;
